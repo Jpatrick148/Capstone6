@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Please Sign In.@Html.ActionLink("Sign In","HomeLog","Users")</h2>
+        
+        
+        <h2>Or Create a New Account. <a class="btn btn-default" @Html.ActionLink("SignUp", "Create", "Users")</h2>
+       
+    </div>
+</div>
